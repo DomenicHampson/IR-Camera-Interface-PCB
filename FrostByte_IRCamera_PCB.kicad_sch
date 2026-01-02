@@ -1,0 +1,397 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "1b613237-19dc-4add-b759-22dbb1a2d9dd")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 162.56 91.44) (xy 195.58 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22661251-41df-428a-b040-8c7c55c62fdf")
+	)
+	(wire
+		(pts
+			(xy 162.56 80.01) (xy 195.58 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ee23aeb-814e-42d0-a385-941982ce78a7")
+	)
+	(wire
+		(pts
+			(xy 162.56 106.68) (xy 195.58 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60f33236-bfd8-4469-a9a6-c718ca8caeef")
+	)
+	(wire
+		(pts
+			(xy 162.56 102.87) (xy 195.58 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65c3af8d-6dec-4b69-af8d-05162d160371")
+	)
+	(wire
+		(pts
+			(xy 162.56 110.49) (xy 195.58 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b7aa35c-17a0-4a11-88bf-46c0872215f7")
+	)
+	(wire
+		(pts
+			(xy 162.56 99.06) (xy 195.58 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bb39e43-84ba-4ef4-8fbd-63e107d8f496")
+	)
+	(wire
+		(pts
+			(xy 162.56 87.63) (xy 195.58 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2d4fbb9-d457-418b-abcc-aa4f0963b834")
+	)
+	(wire
+		(pts
+			(xy 162.56 83.82) (xy 195.58 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7474fec-9183-4bbb-b8d5-3ac41b52fb0d")
+	)
+	(wire
+		(pts
+			(xy 162.56 95.25) (xy 195.58 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1749e27-41c4-4eec-88fb-e2d562feae4a")
+	)
+	(sheet
+		(at 132.08 76.2)
+		(size 30.48 38.1)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "069bbaa0-8b55-4008-896f-7c5bd92df2ff")
+		(property "Sheetname" "MCU"
+			(at 132.08 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 132.08 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CAM_TEMP" input
+			(at 162.56 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "23d81660-2fb6-4010-aaec-d56b17740743")
+		)
+		(pin "RESET_L" output
+			(at 162.56 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5a4239fe-bf1c-4167-9819-1273094ee361")
+		)
+		(pin "SCL" output
+			(at 162.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "86b54ea8-da48-455c-8026-5d7dfb7cff94")
+		)
+		(pin "SDA" bidirectional
+			(at 162.56 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "46add2a6-86b7-491a-8df5-c79a776a93b6")
+		)
+		(pin "VSYNC" input
+			(at 162.56 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "30cdb826-ade5-4a77-a016-09efd2352929")
+		)
+		(pin "SPI_CS" output
+			(at 162.56 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d76fd569-5b77-464d-8c0a-2771d3d88123")
+		)
+		(pin "SPI_CLK" output
+			(at 162.56 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c2c788ee-1149-4ef1-9184-57ccbf30b759")
+		)
+		(pin "SPI_MOSI" output
+			(at 162.56 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d732e440-3bbf-4846-bb7c-aee1d547bede")
+		)
+		(pin "SPI_MISO" input
+			(at 162.56 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "97f10299-21d2-43ab-902e-245fbdc1d940")
+		)
+		(instances
+			(project "FrostByte_IRCamera_PCB"
+				(path "/1b613237-19dc-4add-b759-22dbb1a2d9dd"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 195.58 76.2)
+		(size 29.21 38.1)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "330aee13-51bd-45e1-a1f3-b7f9df002247")
+		(property "Sheetname" "Peripherals"
+			(at 195.58 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "peripherals.kicad_sch"
+			(at 195.58 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SPI_CLK" input
+			(at 195.58 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d5c4f76c-0011-4d1e-a8b4-b8896abcb566")
+		)
+		(pin "SPI_MOSI" input
+			(at 195.58 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e72a3a19-1aec-43f2-acfa-b97f0a73237d")
+		)
+		(pin "SPI_CS" input
+			(at 195.58 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fc4c0aa9-fcb6-4bbe-b324-bb15cd116e37")
+		)
+		(pin "SPI_MISO" output
+			(at 195.58 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "387ce196-f00b-411e-a904-58c11a536d7d")
+		)
+		(pin "VSYNC" output
+			(at 195.58 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3acb0725-a35f-4a97-9fb9-e9ed357ecb3b")
+		)
+		(pin "RESET_L" input
+			(at 195.58 106.68 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "96c25af6-433a-4bda-b970-62cc0a45c804")
+		)
+		(pin "CAM_TEMP" output
+			(at 195.58 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "135a3246-9603-485e-88ed-0cff9fe01331")
+		)
+		(pin "SCL" input
+			(at 195.58 80.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "024cc206-dd5d-4ed4-83a6-b2649ad7ef92")
+		)
+		(pin "SDA" bidirectional
+			(at 195.58 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "241a9014-54f2-40a5-9ae0-86f737646bf3")
+		)
+		(instances
+			(project "FrostByte_IRCamera_PCB"
+				(path "/1b613237-19dc-4add-b759-22dbb1a2d9dd"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 64.77 86.36)
+		(size 36.83 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6bdcb20a-d0aa-4381-88e7-e02725f99672")
+		(property "Sheetname" "Power_Circuitry"
+			(at 64.77 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_circuitry.kicad_sch"
+			(at 64.77 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FrostByte_IRCamera_PCB"
+				(path "/1b613237-19dc-4add-b759-22dbb1a2d9dd"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
