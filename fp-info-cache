@@ -1,4 +1,4 @@
-23677380181423987
+23679150513100752
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96676,6 +96676,13 @@ SOIC127P490X175-8N
 0
 8
 8
+footprints
+SOP65P640X120-16N
+
+
+0
+16
+16
 footprints
 SOT-23-THIN-6_DDC_TEX
 
