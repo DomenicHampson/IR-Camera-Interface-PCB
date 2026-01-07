@@ -27,6 +27,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 76.2) (xy 195.58 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "415ed1f1-fac1-41f1-beae-018a610d45ed")
+	)
+	(wire
+		(pts
 			(xy 162.56 106.68) (xy 195.58 106.68)
 		)
 		(stroke
@@ -67,6 +77,26 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 114.3) (xy 195.58 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87204314-7586-49f0-bb7b-d71fc0a29160")
+	)
+	(wire
+		(pts
+			(xy 162.56 72.39) (xy 195.58 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9886850c-c417-4c1f-9c9d-3d812390c0d2")
+	)
+	(wire
+		(pts
 			(xy 162.56 87.63) (xy 195.58 87.63)
 		)
 		(stroke
@@ -87,6 +117,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 125.73) (xy 195.58 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c63977ce-e0ff-4038-8662-a3e8ab4b6594")
+	)
+	(wire
+		(pts
 			(xy 162.56 95.25) (xy 195.58 95.25)
 		)
 		(stroke
@@ -95,9 +135,29 @@
 		)
 		(uuid "e1749e27-41c4-4eec-88fb-e2d562feae4a")
 	)
+	(wire
+		(pts
+			(xy 162.56 121.92) (xy 195.58 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e65c64b2-83e3-464b-a69f-a79af3a809d3")
+	)
+	(wire
+		(pts
+			(xy 162.56 118.11) (xy 195.58 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0d5cfb4-365d-4e9e-ae0f-8c7a2bde4368")
+	)
 	(sheet
-		(at 132.08 76.2)
-		(size 30.48 38.1)
+		(at 128.27 68.58)
+		(size 34.29 59.69)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -108,7 +168,7 @@
 		)
 		(uuid "069bbaa0-8b55-4008-896f-7c5bd92df2ff")
 		(property "Sheetname" "MCU"
-			(at 132.08 75.4884 0)
+			(at 128.27 67.8684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -117,7 +177,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 132.08 114.8846 0)
+			(at 128.27 128.8546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -144,26 +204,6 @@
 				(justify right)
 			)
 			(uuid "5a4239fe-bf1c-4167-9819-1273094ee361")
-		)
-		(pin "SCL" output
-			(at 162.56 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "86b54ea8-da48-455c-8026-5d7dfb7cff94")
-		)
-		(pin "SDA" bidirectional
-			(at 162.56 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "46add2a6-86b7-491a-8df5-c79a776a93b6")
 		)
 		(pin "VSYNC" input
 			(at 162.56 102.87 0)
@@ -215,6 +255,86 @@
 			)
 			(uuid "97f10299-21d2-43ab-902e-245fbdc1d940")
 		)
+		(pin "SCL_A" output
+			(at 162.56 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f2569ab4-c6be-4be4-85fc-8d31d4dab8ee")
+		)
+		(pin "SDA_A" bidirectional
+			(at 162.56 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9d28c56f-c557-4577-bf4f-b5c5e114de8e")
+		)
+		(pin "SDA_B" bidirectional
+			(at 162.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fe5c218e-eaa6-44be-adad-860199e16de8")
+		)
+		(pin "SCL_B" output
+			(at 162.56 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7d781032-43db-4ebb-930e-ca7d8c62ef2a")
+		)
+		(pin "USB_D-" bidirectional
+			(at 162.56 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b2173092-2049-4efb-936d-34d48d916835")
+		)
+		(pin "USB_D+" bidirectional
+			(at 162.56 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5149e4c7-9134-4cf7-94b1-64331960c396")
+		)
+		(pin "TX" output
+			(at 162.56 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "522f52af-683e-4ae5-909d-0876019cc1ca")
+		)
+		(pin "RX" input
+			(at 162.56 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5259c59c-d41b-4f92-9720-c1b33b6dd341")
+		)
 		(instances
 			(project "FrostByte_IRCamera_PCB"
 				(path "/1b613237-19dc-4add-b759-22dbb1a2d9dd"
@@ -224,8 +344,8 @@
 		)
 	)
 	(sheet
-		(at 195.58 76.2)
-		(size 29.21 38.1)
+		(at 195.58 68.58)
+		(size 34.29 59.69)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -236,7 +356,7 @@
 		)
 		(uuid "330aee13-51bd-45e1-a1f3-b7f9df002247")
 		(property "Sheetname" "Peripherals"
-			(at 195.58 75.4884 0)
+			(at 195.58 67.8684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -245,7 +365,7 @@
 			)
 		)
 		(property "Sheetfile" "peripherals.kicad_sch"
-			(at 195.58 114.8846 0)
+			(at 195.58 128.8546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -323,17 +443,7 @@
 			)
 			(uuid "135a3246-9603-485e-88ed-0cff9fe01331")
 		)
-		(pin "SCL" input
-			(at 195.58 80.01 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "024cc206-dd5d-4ed4-83a6-b2649ad7ef92")
-		)
-		(pin "SDA" bidirectional
+		(pin "SCL_B" input
 			(at 195.58 83.82 180)
 			(effects
 				(font
@@ -341,7 +451,77 @@
 				)
 				(justify left)
 			)
-			(uuid "241a9014-54f2-40a5-9ae0-86f737646bf3")
+			(uuid "b2c6d903-27bc-4c74-95f3-98ef5cfd7d62")
+		)
+		(pin "SDA_B" bidirectional
+			(at 195.58 80.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6a806975-75b2-49ca-8ce8-d45d2bc883ff")
+		)
+		(pin "SCL_A" input
+			(at 195.58 72.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "44902134-7f6d-4283-a10f-2338a25d6529")
+		)
+		(pin "SDA_A" bidirectional
+			(at 195.58 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7dd37833-604a-4a4f-823b-2a404a47cf02")
+		)
+		(pin "USB_D-" bidirectional
+			(at 195.58 118.11 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6a32d067-00a2-403a-92c5-b7a34519fdeb")
+		)
+		(pin "USB_D+" bidirectional
+			(at 195.58 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "983698c1-1d72-4f69-bf4d-1e420273aef2")
+		)
+		(pin "RX" input
+			(at 195.58 121.92 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ef5534d0-685a-4188-8273-6cb5527ddd46")
+		)
+		(pin "TX" output
+			(at 195.58 125.73 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "77575b53-07c8-4fc5-ba02-4b5c026244f9")
 		)
 		(instances
 			(project "FrostByte_IRCamera_PCB"
@@ -352,8 +532,8 @@
 		)
 	)
 	(sheet
-		(at 64.77 86.36)
-		(size 36.83 20.32)
+		(at 66.04 81.28)
+		(size 36.83 24.13)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -364,7 +544,7 @@
 		)
 		(uuid "6bdcb20a-d0aa-4381-88e7-e02725f99672")
 		(property "Sheetname" "Power_Circuitry"
-			(at 64.77 85.6484 0)
+			(at 66.04 80.5684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -373,7 +553,7 @@
 			)
 		)
 		(property "Sheetfile" "power_circuitry.kicad_sch"
-			(at 64.77 107.2646 0)
+			(at 66.04 105.9946 0)
 			(effects
 				(font
 					(size 1.27 1.27)

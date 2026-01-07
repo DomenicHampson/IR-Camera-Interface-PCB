@@ -7,4 +7,7 @@
   (lib (name "SI3127DV_T1_GE3")(type "KiCad")(uri "${KIPRJMOD}/frostbyte_symbols/2025-11-24_03-17-46.kicad_sym")(options "")(descr ""))
   (lib (name "AP63203WU-7")(type "KiCad")(uri "${KIPRJMOD}/frostbyte_symbols/2025-11-24_21-08-57.kicad_sym")(options "")(descr ""))
   (lib (name "SN74AXC4T245PWR")(type "KiCad")(uri "${KIPRJMOD}/frostbyte_symbols/SN74AXC4T245PWR.kicad_sym")(options "")(descr ""))
+  (lib (name "TCA9517DGKR")(type "KiCad")(uri "${KIPRJMOD}/frostbyte_symbols/TCA9517DGKR.kicad_sym")(options "")(descr ""))
+  (lib (name "GSB1C41110SSHR")(type "KiCad")(uri "${KIPRJMOD}/frostbyte_symbols/GSB1C41110SSHR.kicad_sym")(options "")(descr ""))
+  (lib (name "USBLC6-2SC6")(type "KiCad")(uri "${KIPRJMOD}/frostbyte_symbols/USBLC6-2SC6.kicad_sym")(options "")(descr ""))
 )
