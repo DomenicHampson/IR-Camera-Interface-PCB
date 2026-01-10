@@ -3228,6 +3228,16 @@
 		)
 		(uuid "fb22ab73-62b0-49c0-bdaa-4fd1ad463ac0")
 	)
+	(text "SWAP\n"
+		(exclude_from_sim no)
+		(at 88.9 67.564 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "15d0714f-fac6-41ed-83e8-a3ab6c291408")
+	)
 	(text "0.63A"
 		(exclude_from_sim no)
 		(at 70.866 75.438 0)

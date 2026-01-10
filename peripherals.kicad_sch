@@ -12003,7 +12003,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c659f8f-e6bb-4921-998c-09801a20cc5c")
-		(property "Reference" "J5"
+		(property "Reference" "J6"
 			(at 82.55 86.36 0)
 			(effects
 				(font
@@ -12138,7 +12138,7 @@
 		(instances
 			(project ""
 				(path "/1b613237-19dc-4add-b759-22dbb1a2d9dd/330aee13-51bd-45e1-a1f3-b7f9df002247"
-					(reference "J5")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -12967,7 +12967,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b43fd88-1a73-4230-aa46-9b1beb4897ee")
-		(property "Reference" "J6"
+		(property "Reference" "J5"
 			(at 48.26 104.1399 0)
 			(effects
 				(font
@@ -13027,7 +13027,7 @@
 		(instances
 			(project "FrostByte_IRCamera_PCB"
 				(path "/1b613237-19dc-4add-b759-22dbb1a2d9dd/330aee13-51bd-45e1-a1f3-b7f9df002247"
-					(reference "J6")
+					(reference "J5")
 					(unit 1)
 				)
 			)
