@@ -1,4 +1,4 @@
-23679150513100752
+23698600475223005
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96586,6 +96586,13 @@ Varistor VF
 2
 2
 footprints
+AMPHENOL_GSB1C41110SSHR
+
+
+0
+16
+16
+footprints
 AP63203WU-7_DIO
 
 AP63203WU-7 
@@ -96607,6 +96614,13 @@ AP63203WU-7
 6
 6
 footprints
+CONN4_BM04B-SRSS_JST
+
+
+0
+6
+6
+footprints
 D6R90_CNK
 
 D6R90F2LFS 
@@ -96614,12 +96628,40 @@ D6R90F2LFS
 4
 4
 footprints
+DIOM5226X230N
+
+
+0
+2
+2
+footprints
+DIOM5226X240N
+
+
+0
+2
+2
+footprints
+DIO_SS34
+
+
+0
+2
+2
+footprints
 FrostByte_Logo
 
 
 0
 0
 0
+footprints
+GCT_USB4120-03-C_REVA6
+
+
+0
+20
+20
 footprints
 IND_VLS6045EX-6R8M
 
@@ -96677,6 +96719,20 @@ SOIC127P490X175-8N
 8
 8
 footprints
+SOIC127P600X175-8N
+<b>. SO-8 mechanical data-</b><br>
+
+0
+8
+8
+footprints
+SOP65P490X110-8N
+
+
+0
+8
+8
+footprints
 SOP65P640X120-16N
 
 
@@ -96704,6 +96760,27 @@ LMR51430YDDCR
 0
 6
 6
+footprints
+SOT95P280X145-6N
+
+
+0
+6
+6
+footprints
+Small_Logo
+
+
+0
+0
+0
+footprints
+Small_SMD_Fuse_Holder
+
+
+0
+2
+2
 footprints
 TSOP-6L_VIS
 

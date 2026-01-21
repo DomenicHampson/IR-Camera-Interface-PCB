@@ -10,4 +10,7 @@
   (lib (name "TCA9517DGKR")(type "KiCad")(uri "${KIPRJMOD}/frostbyte_symbols/TCA9517DGKR.kicad_sym")(options "")(descr ""))
   (lib (name "GSB1C41110SSHR")(type "KiCad")(uri "${KIPRJMOD}/frostbyte_symbols/GSB1C41110SSHR.kicad_sym")(options "")(descr ""))
   (lib (name "USBLC6-2SC6")(type "KiCad")(uri "${KIPRJMOD}/frostbyte_symbols/USBLC6-2SC6.kicad_sym")(options "")(descr ""))
+  (lib (name "USB4120-03-C_REVA6")(type "KiCad")(uri "${KIPRJMOD}/frostbyte_symbols/USB4120-03-C_REVA6.kicad_sym")(options "")(descr ""))
+  (lib (name "USB6B1RL")(type "KiCad")(uri "${KIPRJMOD}/frostbyte_symbols/USB6B1RL.kicad_sym")(options "")(descr ""))
+  (lib (name "B240A-13-F")(type "KiCad")(uri "${KIPRJMOD}/frostbyte_symbols/B240A-13-F.kicad_sym")(options "")(descr ""))
 )

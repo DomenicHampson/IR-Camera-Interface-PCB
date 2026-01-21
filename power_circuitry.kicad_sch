@@ -928,6 +928,258 @@
 				)
 			)
 		)
+		(symbol "B240A-13-F:B240A-13-F"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "B240A-13-F"
+				(at -5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "B240A-13-F:DIOM5226X230N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "22 - 2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "IPC-7351B"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "2.3 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Diodes"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "B240A-13-F_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -1.016) (xy 0.635 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 0.635 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 1.27) (xy 1.905 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:Conn_01x02_Socket"
 			(pin_names
 				(offset 1.016) hide)
@@ -1209,153 +1461,6 @@
 					(at 0 -2.54 90)
 					(length 2.032)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:D_Schottky_Small"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at -1.27 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "D_Schottky_Small"
-				(at -7.112 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Schottky diode, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Schottky_Small_0_1"
-				(polyline
-					(pts
-						(xy -0.762 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0.762) (xy -1.27 1.016) (xy -0.762 1.016) (xy -0.762 -1.016) (xy -0.254 -1.016) (xy -0.254 -0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Schottky_Small_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.778)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.778)
-					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2860,7 +2965,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 66.04) (xy 83.82 68.58)
+			(xy 83.82 60.96) (xy 83.82 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3228,17 +3333,7 @@
 		)
 		(uuid "fb22ab73-62b0-49c0-bdaa-4fd1ad463ac0")
 	)
-	(text "SWAP\n"
-		(exclude_from_sim no)
-		(at 88.9 67.564 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "15d0714f-fac6-41ed-83e8-a3ab6c291408")
-	)
-	(text "0.63A"
+	(text "0.5A Slow Blow"
 		(exclude_from_sim no)
 		(at 70.866 75.438 0)
 		(effects
@@ -3277,17 +3372,6 @@
 			)
 		)
 		(uuid "7a1d0409-6739-4a63-92cc-c2ef7a7f55f9")
-	)
-	(text "3404.2414.11\n"
-		(exclude_from_sim no)
-		(at 77.724 72.644 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "81fbc90c-afba-45ca-b9ad-f244a8e4efaf")
 	)
 	(text "Power Circuitry"
 		(exclude_from_sim no)
@@ -3456,6 +3540,117 @@
 			(project "FrostByte_IRCamera_PCB"
 				(path "/1b613237-19dc-4add-b759-22dbb1a2d9dd/6bdcb20a-d0aa-4381-88e7-e02725f99672"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "B240A-13-F:B240A-13-F")
+		(at 83.82 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e1fb04f-d114-4500-a770-068d0d93bb08")
+		(property "Reference" "D6"
+			(at 86.36 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B240A-13-F"
+			(at 86.36 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:DIOM5226X230N"
+			(at 83.82 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "22 - 2"
+			(at 83.82 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 83.82 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.3 mm"
+			(at 83.82 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Diodes"
+			(at 83.82 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "C"
+			(uuid "b125c6ea-a190-4594-8880-d3859642f542")
+		)
+		(pin "A"
+			(uuid "e6871fdb-7cc1-42f9-abb9-c721d7125d48")
+		)
+		(instances
+			(project ""
+				(path "/1b613237-19dc-4add-b759-22dbb1a2d9dd/6bdcb20a-d0aa-4381-88e7-e02725f99672"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -4374,7 +4569,7 @@
 				)
 			)
 		)
-		(property "Value" "SF-0603S063-2"
+		(property "Value" "3404.2413.11"
 			(at 71.12 81.28 0)
 			(effects
 				(font
@@ -4382,7 +4577,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "footprints:Small_SMD_Fuse_Holder"
 			(at 71.12 83.82 0)
 			(effects
 				(font
@@ -4443,7 +4638,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3A"
+		(property "Value" "1A Slow Blow"
 			(at 85.09 80.0099 90)
 			(effects
 				(font
@@ -4557,75 +4752,6 @@
 			(project "FrostByte_IRCamera_PCB"
 				(path "/1b613237-19dc-4add-b759-22dbb1a2d9dd/6bdcb20a-d0aa-4381-88e7-e02725f99672"
 					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky_Small")
-		(at 83.82 71.12 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b77c3da5-b87e-4338-9a68-ab2cf481bb0c")
-		(property "Reference" "D6"
-			(at 86.36 70.1039 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SS34"
-			(at 86.36 72.6439 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "footprints:DIO_SS34"
-			(at 83.82 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode, small symbol"
-			(at 83.82 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4e9b3447-0f9c-499b-8452-6a08efd75d3b")
-		)
-		(pin "1"
-			(uuid "ae288b6b-69d0-4352-93a7-11567b4be0ad")
-		)
-		(instances
-			(project ""
-				(path "/1b613237-19dc-4add-b759-22dbb1a2d9dd/6bdcb20a-d0aa-4381-88e7-e02725f99672"
-					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -4855,7 +4981,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 83.82 66.04 0)
+		(at 83.82 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4864,7 +4990,7 @@
 		(fields_autoplaced yes)
 		(uuid "e422c657-9683-4eb2-92e9-2f668c1dd95f")
 		(property "Reference" "#PWR051"
-			(at 83.82 69.85 0)
+			(at 83.82 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4873,7 +4999,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 83.82 60.96 0)
+			(at 83.82 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4881,7 +5007,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 66.04 0)
+			(at 83.82 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4890,7 +5016,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 66.04 0)
+			(at 83.82 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4899,7 +5025,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 83.82 66.04 0)
+			(at 83.82 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
