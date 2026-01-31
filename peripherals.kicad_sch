@@ -1852,12 +1852,13 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "TVS Diode Array Bi-Directional USB6B1RL, 500W SOIC 8-Pin"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
@@ -1882,16 +1883,6 @@
 				)
 			)
 			(property "MOUSER_PRICE-STOCK" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/USB6B1RL?qs=Ctxo64yJVFuZb8Hhk%2F3CCQ%3D%3D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "DESCRIPTION" "TVS Diode Array Bi-Directional USB6B1RL, 500W SOIC 8-Pin"
 				(at 0 0 0)
 				(effects
 					(font
@@ -12476,8 +12467,8 @@
 		)
 		(uuid "dc1d88b9-27a7-476e-afdf-440a8ebc2344")
 	)
-	(label "D-"
-		(at 67.31 97.79 0)
+	(label "USB_D-"
+		(at 64.77 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12487,7 +12478,7 @@
 		)
 		(uuid "3d69197b-5848-4839-89cc-1a38302010a2")
 	)
-	(label "D-"
+	(label "USB_D-"
 		(at 109.22 95.25 0)
 		(fields_autoplaced yes)
 		(effects
@@ -12498,7 +12489,7 @@
 		)
 		(uuid "8b5ca068-ab33-4486-97e2-ceb84ce830a1")
 	)
-	(label "D+"
+	(label "USB_D+"
 		(at 109.22 97.79 0)
 		(fields_autoplaced yes)
 		(effects
@@ -12509,8 +12500,8 @@
 		)
 		(uuid "a33ca4e1-35be-4358-aad8-6edc4239a76b")
 	)
-	(label "D-"
-		(at 69.85 148.59 180)
+	(label "USB_D+"
+		(at 69.85 146.05 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12520,8 +12511,8 @@
 		)
 		(uuid "bb143ad3-68dd-4c70-93d8-15f49cfa04d1")
 	)
-	(label "D+"
-		(at 67.31 95.25 0)
+	(label "USB_D+"
+		(at 64.77 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12531,8 +12522,8 @@
 		)
 		(uuid "c19ea4f8-2683-4b9c-9393-49efc78958c4")
 	)
-	(label "D+"
-		(at 69.85 146.05 180)
+	(label "USB_D-"
+		(at 69.85 148.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
