@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "1b613237-19dc-4add-b759-22dbb1a2d9dd")
 	(paper "A4")
+	(title_block
+		(title "FrostByte IR Camera Interface Board")
+		(company "FrostByte Solutions")
+		(comment 1 "Designed by Domenic Hampson")
+	)
 	(lib_symbols)
 	(wire
 		(pts
